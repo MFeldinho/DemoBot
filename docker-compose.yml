@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  demobot:
+    image: demobot
+    build:
+      context: .
+      dockerfile: Dockerfile
